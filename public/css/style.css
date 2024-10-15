@@ -6314,6 +6314,22 @@ input[type="number"] {
   }
 }
 @media (max-width: 768px) {
+  .gallery_zoom {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.iknow_tm_news .news_list ul {
+  grid-template-columns: repeat(1, 1fr);
+}
+.iknow_tm_mainpart.opened {
+  padding: 40px 30px;
+}
+.iknow_tm_copyright {
+  padding: 60px 0 58px;
+}
+.iknow_tm_resume .iknow_tm_main_title {
+  margin-bottom: 0px;
+}
   .iknow_tm_hero_third .content .hello {
     font-size: 21px;
   }
