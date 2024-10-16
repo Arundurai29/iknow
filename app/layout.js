@@ -14,8 +14,8 @@ import State from "/context/context";
 
 /** Meta data */
 export const metadata = {
-  title: "Dr Vimal Kumar G - MGM Healthcare | Best Super-MultiSpecialty Hospital in Chennai",
-  description: "Explore Dr. Vimal Kumar's expertise in childhood cancers, blood disorders, BMT, immune deficiencies, cellular therapies, training, and publications.",
+  title: "PHO chennai",
+  description: "We at PHO, offers a holistic care in diagnosis, treatment and prevention of all blood related disorders and cancers in children, adolescents, and young adults. ",
 };
 
 /** Google fonts */
