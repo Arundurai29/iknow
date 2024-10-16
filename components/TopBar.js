@@ -33,7 +33,7 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
       
       </ul>
       <div className="hamburger" onClick={toggleMenu}>
-        {/* Hamburger Icon */}
+        
         <span className="line"></span>
         <span className="line"></span>
         <span className="line"></span>
