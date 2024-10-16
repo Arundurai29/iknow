@@ -28,7 +28,7 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/vimal">Dr vimal</Link>
+          <Link href="/vimal">Dr Vimal Kumar G</Link>
         </li>
       
       </ul>
