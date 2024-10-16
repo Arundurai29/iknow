@@ -1,5 +1,5 @@
-import JassicaLayout from "@/layouts/JassicaLayout";
+import Home from "./home/page";
 const Page = () => {
-  return <JassicaLayout />;
+  return <Home />;
 };
 export default Page;
