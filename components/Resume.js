@@ -42,7 +42,7 @@ const Resume = () => {
     {
       id: 3,
       subject: "FNB Fellowship in Paediatric Haematology Oncology",
-      university: "Apollo Specialty Hospital, Chennai",
+      university: "National Board of Examinations, New Delhi",
       date: "2012 - 2014",
     },
     {

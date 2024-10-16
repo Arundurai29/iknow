@@ -242,7 +242,7 @@ inset: 0;
   }
   
   .hamburger {
-    display: none;
+    display: block;
     cursor: pointer;
   }
   

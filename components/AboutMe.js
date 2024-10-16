@@ -21,22 +21,13 @@ const AboutMe = () => {
                 <h3>Postion</h3>
                 <span>{aboutData.nationality}</span>
               </li>
-              <li>
-                <h3>Birthday</h3>
-                <span>{aboutData.birthday}</span>
-              </li>
+              
               <li>
                 <h3>Mail</h3>
                 <span>{aboutData.email}</span>
               </li>
-              <li>
-                <h3>Phone</h3>
-                <span>{aboutData.phone}</span>
-              </li>
-              <li>
-                <h3>Address</h3>
-                <span>{aboutData.address}</span>
-              </li>
+             
+              
               
             </ul>
           </div>

@@ -2,18 +2,17 @@ import emailjs from "emailjs-com";
 import { useState } from "react";
 const Contact = () => {
   const infos = [
-    { id: 1, icon: "smartphone", title: "Call Me", value: "+91-9790766692" },
     {
-      id: 2,
+      id: 1,
       icon: "letter",
       title: "Email Us",
       value: '<a href="#">drgvimal@gmail.com</a>',
     },
     {
-      id: 3,
+      id: 2,
       icon: "placeholder",
       title: "Address",
-      value: "89, S&P Residency, Vanagaram, Chennai, India-600095 ",
+      value: "MGM Cancer Institute : MGM Cancer Institute, Nelson Manickam Road, Rajeswari St, Rajaram Mehta Nagar, Aminjikarai, Chennai, Tamil Nadu 600029",
     },
   ];
 
