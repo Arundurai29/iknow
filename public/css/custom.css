@@ -117,10 +117,10 @@
     place-content: baseline;
 }
 .obj_card h3{
-    font-size: 18px;
+    font-size: 20px;
 }
 .obj_card p{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /* Tabs.module.css or global CSS file */
