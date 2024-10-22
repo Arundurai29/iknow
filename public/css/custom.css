@@ -49,7 +49,7 @@
     color: #eb8733;
 }
 .about_right h2{
-    font-size: 46px;
+    font-size: 38px;
 }
 .about_right ul{
     list-style: none;
@@ -80,28 +80,47 @@
     color: #eb8733;
 }
 .title_section h2{
-    font-size: 46px;
+    font-size: 38px;
 }
 .title_section img{
     filter: brightness(0);
 }
+.obj_left{
+    display: grid;
+    gap: 30px;
+   text-align: end;
+   place-content: center;
+}
+.obj_right{
+    display: grid;
+    gap: 30px;
+   text-align: start;
+   place-content: center;
+}
+.obj_midle{
+    background-color: transparent;
+    background-image: linear-gradient(160deg, #eb8733 0%, #fbfbfb 100%);
+    border-radius: 6px;
+    padding: 20px 20px 0;
+}
 .obj_cards{
-    padding: 40px 0 80px;
+    padding: 60px 0 80px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+    gap: 40px;
 }
 .obj_card{
-    padding: 30px;
     background: #fff;
     border-radius: 8px;
     display: grid;
     gap: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     place-content: baseline;
 }
 .obj_card h3{
-    font-size: 24px;
+    font-size: 18px;
+}
+.obj_card p{
+    font-size: 15px;
 }
 
 /* Tabs.module.css or global CSS file */
@@ -340,6 +359,10 @@ inset: 0;
     }
     .obj_card {
         padding: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .obj_left{
+        text-align: left;
     }
     .gray-bg {
         padding-bottom: 40px !important;

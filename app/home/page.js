@@ -61,7 +61,7 @@ const Home = () => {
             </div>
             <div className="about_right">
               <span>About Us</span>
-              <h2>About Our PHO</h2>
+              <h2>About PHO</h2>
               <p>
                 We at PHO, offers a holistic care in diagnosis, treatment and
                 prevention of all blood related disorders and cancers in
@@ -324,13 +324,15 @@ const Home = () => {
             <h2>PHO Chennai Objectives</h2>
             <img src="/img/about/title-line.png" />
           </div>
+
           <div className="obj_cards">
+          <div className="obj_left">
             <div className="obj_card">
               <h3>Deliver Comprehensive, Patient-Centered Care</h3>
               <p>
                 Provide compassionate, evidence-based care to pediatric patients
                 with hematologic and oncologic conditions, ensuring the
-                physical, emotional, and psychosocial needs of the child and
+                physical, emotional, and psychosocial needs of the child
                 their family are met.
               </p>
             </div>
@@ -352,6 +354,11 @@ const Home = () => {
                 through treatment and long-term follow-up.
               </p>
             </div>
+            </div>
+            <div className="obj_midle">
+                     <img src="/img/about/familyd.png" alt="" />
+            </div>
+            <div className="obj_right">
             <div className="obj_card">
               <h3>Advance Research and Clinical Trials</h3>
               <p>
@@ -377,14 +384,15 @@ const Home = () => {
                 and oncology, to maintain the highest standard of care.
               </p>
             </div>
-            <div className="obj_card">
+            </div>
+            {/* <div className="obj_card">
               <h3>Promote Preventive and Early Detection Strategies</h3>
               <p>
                 Advocate for early detection, prevention, and intervention
                 strategies, working with public health initiatives to reduce the
                 burden of these diseases.{" "}
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
