@@ -35,7 +35,8 @@ const Home = () => {
       <div className="home_banner">
         <div className="container">
           <div className="Home_banner_left">
-            <h1>Best Care & Better Doctor</h1>
+            <h1>Expert care for young patients
+</h1>
             <p>
               {" "}
               Our team includes skilled physicians and nurses who understand the
@@ -56,7 +57,7 @@ const Home = () => {
         <div className="container">
           <div className="about">
             <div className="about_left">
-              <img src="/img/about/about-img.jpg" />
+              <img src="/img/about/img2.jpg" />
               <img src="/img/about/medical.png" />
             </div>
             <div className="about_right">
@@ -356,7 +357,7 @@ const Home = () => {
             </div>
             </div>
             <div className="obj_midle">
-                     <img src="/img/about/familyd.png" alt="" />
+                     <img src="/img/about/img4.jpg" alt="" />
             </div>
             <div className="obj_right">
             <div className="obj_card">
@@ -404,7 +405,8 @@ const Home = () => {
       <div className="container">
       <div className="title_section">
             <span>Stay healthy & strong to enjoy life</span>
-            <h2>Trust Us To Be There To Help All & Make Things Well Again.</h2>
+            <h2>Trusted experts in pediatric hematology-oncology,
+            ensuring compassionate care</h2>
             <div className="iknow_tm_button">
               <a href="#">Contact Us</a>
             </div>

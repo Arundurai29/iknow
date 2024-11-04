@@ -1041,8 +1041,16 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./public/css/custom.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
 .home_banner{
-  background: url(/img/hero/home.jpg);
+  background: url(/img/about/img1.jpg) center center no-repeat;
+  background-size: cover;
   padding: 200px 0 150px;
+  position: relative;
+}
+.home_banner::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
 }
 .Home_banner_left>*{
     padding: 0;
@@ -1056,6 +1064,7 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
 }
 .Home_banner_left h1{
     font-size: 70px;
+    color: #fff;
 }
 .defalut_section{
     padding: 80px 0 20px;
@@ -1145,11 +1154,9 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
    text-align: start;
    place-content: center;
 }
-.obj_midle{
-    background-color: transparent;
-    background-image: linear-gradient(160deg, #eb8733 0%, #fbfbfb 100%);
-    border-radius: 6px;
-    padding: 20px 20px 0;
+.obj_midle img{
+    height: 100%;
+    object-fit: cover;
 }
 .obj_cards{
     padding: 60px 0 80px;
@@ -1244,7 +1251,7 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
 }
 .cta_area{
     padding: 80px 0;
-    background: url(/img/about/slider.jpg) no-repeat center center;
+    background: url(/img/about/img3.jpg) no-repeat center center;
     background-size: cover;
 position: relative;
 }

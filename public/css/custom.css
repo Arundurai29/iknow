@@ -1,6 +1,14 @@
 .home_banner{
-  background: url(/img/hero/home.jpg);
+  background: url(/img/about/img1.jpg) center center no-repeat;
+  background-size: cover;
   padding: 200px 0 150px;
+  position: relative;
+}
+.home_banner::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
 }
 .Home_banner_left>*{
     padding: 0;
@@ -13,6 +21,7 @@
 }
 .Home_banner_left h1{
     font-size: 70px;
+    color: #fff;
 }
 .defalut_section{
     padding: 80px 0 20px;
@@ -97,11 +106,9 @@
    text-align: start;
    place-content: center;
 }
-.obj_midle{
-    background-color: transparent;
-    background-image: linear-gradient(160deg, #eb8733 0%, #fbfbfb 100%);
-    border-radius: 6px;
-    padding: 20px 20px 0;
+.obj_midle img{
+    height: 100%;
+    object-fit: cover;
 }
 .obj_cards{
     padding: 60px 0 80px;
@@ -192,7 +199,7 @@
 }
 .cta_area{
     padding: 80px 0;
-    background: url(/img/about/slider.jpg) no-repeat center center;
+    background: url(/img/about/img3.jpg) no-repeat center center;
     background-size: cover;
 position: relative;
 }

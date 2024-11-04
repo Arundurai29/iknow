@@ -30,6 +30,9 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
         <li>
           <Link href="/vimal">Dr Vimal Kumar G</Link>
         </li>
+        <li>
+          <Link href="/article">Articles </Link>
+        </li>
       
       </ul>
       <div className="hamburger" onClick={toggleMenu}>
