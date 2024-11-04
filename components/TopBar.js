@@ -31,7 +31,7 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
           <Link href="/vimal">Dr Vimal Kumar G</Link>
         </li>
         <li>
-          <Link href="/article">Articles </Link>
+          <Link href="/articles">Articles </Link>
         </li>
       
       </ul>
