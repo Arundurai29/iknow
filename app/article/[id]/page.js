@@ -86,7 +86,7 @@ export default async function Post({ params, searchParams }) {
               {filteredRecentPosts.map(({ id, title,image }) => (
                 <li key={id}>
                    <img src={image} />
-                  <a href={`/posts/${id}`}>{title}</a>
+                  <a href={`/article/${id}`}>{title}</a>
                 </li>
               ))}
             </ul>
