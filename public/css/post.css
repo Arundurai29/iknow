@@ -10,12 +10,7 @@
     padding: 200px 0 150px;
     position: relative;
 }
-.post_banner::before{
-    position: absolute;
-    content: "";
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-}
+
 .post_banner h2{
     font-size: 46px;
     color: #fff;

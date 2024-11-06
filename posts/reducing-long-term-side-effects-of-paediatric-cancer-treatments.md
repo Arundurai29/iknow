@@ -1,7 +1,7 @@
 ---
 title: "Reducing Long-Term Side Effects of Paediatric Cancer Treatments"
 image: "/img/about/img1.jpg"
-author: Dr Vimal Kumar G
+author: PHO Team
 date: "04-11-2024"
 ---
 

@@ -357,7 +357,7 @@ const Home = () => {
             </div>
             </div>
             <div className="obj_midle">
-                     <img src="/img/about/img4.jpg" alt="" />
+                     <img src="/img/about/img5.png" alt="" />
             </div>
             <div className="obj_right">
             <div className="obj_card">

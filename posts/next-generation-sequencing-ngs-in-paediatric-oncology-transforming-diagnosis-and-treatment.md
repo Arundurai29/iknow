@@ -1,7 +1,7 @@
 ---
 title: "Next-Generation Sequencing (NGS) in Paediatric Oncology: Transforming Diagnosis and Treatment"
 image: "/img/about/img3.jpg"
-author: Dr Vimal Kumar G
+author: PHO Team
 date: "04-11-2024"
 ---
 

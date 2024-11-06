@@ -44,11 +44,11 @@ export default async function Blogs({ searchParams }) {
                                         {date}
                                     </span>
                                     <span className="post-author">
-                                        <img src="/img/article/user.png" /> {author}
+                                        <img src="/img/artical/user.png" /> {author}
                                     </span>
                                 </div>
                                 <h3>{title}</h3>
-                                <a className="readmore" href={`/artical/${id}`}>
+                                <a className="readmore" href={`/article/${id}`}>
                                     Read More
                                 </a>
                             </div>

@@ -21,6 +21,21 @@ const {
 } = type;
 
 import AboutMe from "@/components/AboutMe";
+import DennaAbout from "@/components/DeenaAbout";
+import DennaQualification from "@/components/DennaQualifications";
+import DeenaExperience from "@/components/DeenaExperience";
+import DeenaAwards from "@/components/DeenaAwards";
+import DeenaPublication from "@/components/DeenaPublication";
+import DeenaPresentation from "@/components/DeenaPresentation";
+import DeenaMember from "@/components/DeenaMember";
+import Contact1 from "@/components/DeenaContact";
+import RishabAbout from "@/components/RishabAbout";
+import RishabQualification from "@/components/RishabQualifications";
+import RishabExperience from "@/components/RishabExperience";
+import RishabPublication from "@/components/RishabPublication";
+import RishabPresentation from "@/components/RishabPresentation";
+import RishabMember from "@/components/RishabMember";
+import Contact2 from "@/components/RishabContact";
 import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import Portfolio from "@/components/Portfolio";
@@ -93,6 +108,25 @@ const state = (props) => {
       { id: 8, sectionId: "affiliations", component: <Affiliations /> }, 
       { id: 9, sectionId: "faculty", component: <Faculty /> },
     ],
+    pageContent1: [
+      { id: 1, sectionId: "about", component: <DennaAbout /> },
+      { id: 2, sectionId: "resume", component: <DennaQualification /> },
+      { id: 3, sectionId: "deenaexperience", component: <DeenaExperience /> },
+      { id: 4, sectionId: "awards", component: <DeenaAwards /> },
+      { id: 5, sectionId: "presentation", component: <DeenaPresentation /> },
+      { id: 6, sectionId: "news", component: <DeenaPublication /> },
+      { id: 7, sectionId: "contact", component: <Contact1 /> },
+      { id: 8, sectionId: "member", component: <DeenaMember /> }, 
+    ],
+    pageContent3: [
+      { id: 1, sectionId: "about1", component: <RishabAbout /> },
+      { id: 2, sectionId: "resume", component: <RishabQualification /> },
+      { id: 3, sectionId: "experience", component: <RishabExperience /> },
+      { id: 4, sectionId: "presentation", component: <RishabPresentation /> },
+      { id: 5, sectionId: "news", component: <RishabPublication /> },
+      { id: 6, sectionId: "contact", component: <Contact2 /> },
+      { id: 7, sectionId: "member", component: <RishabMember /> }, 
+    ], 
     menus: [
       { id: 0, href: "home", title: "Home", icon: "squares" },
       { id: 1, href: "about", title: "About Me", icon: "archive" },
@@ -104,6 +138,29 @@ const state = (props) => {
       { id: 7, href: "news", title: "Publications", icon: "writing" },
       { id: 8, href: "faculty", title: "As Faculty", icon: "faculty" },
       { id: 9, href: "contact", title: "Contact", icon: "letter" },
+    ],
+    menus1: [
+      { id: 0, href: "home", title: "Home", icon: "squares" },
+      { id: 1, href: "about", title: "About Me", icon: "archive" },
+      { id: 2, href: "resume", title: "Qualifications", icon: "contacs" },
+      { id: 3, href: "member", title: "Memberships", icon: "affiliate" }, 
+      { id: 4, href: "deenaexperience", title: "Experience", icon: "briefcase" },
+      { id: 5, href: "awards", title: "Awards", icon: "awards" },
+      { id: 6, href: "presentation", title: "Presentations", icon: "presentation" },
+      { id: 7, href: "news", title: "Publications", icon: "writing" },
+      // { id: 8, href: "faculty", title: "As Faculty", icon: "faculty" },
+      { id: 8, href: "contact", title: "Contact", icon: "letter" },
+    ],
+    menus3: [
+      { id: 0, href: "home", title: "Home", icon: "squares" },
+      { id: 1, href: "about1", title: "About Me", icon: "archive" },
+      { id: 2, href: "resume", title: "Qualifications", icon: "contacs" },
+      { id: 3, href: "member", title: "Memberships", icon: "affiliate" }, 
+      { id: 4, href: "experience", title: "Experience", icon: "briefcase" },
+      { id: 5, href: "presentation", title: "Presentations", icon: "presentation" },
+      { id: 6, href: "news", title: "Publications", icon: "writing" },
+    
+      { id: 7, href: "contact", title: "Contact", icon: "letter" },
     ],
     aboutData: {
       name: "Dr Vimal Kumar G",
@@ -173,7 +230,7 @@ const state = (props) => {
     });
   }, []);
 
-  const { modal, serviceModal, portfolioModal, blogModal, pageContent, testimonialItems, menus, aboutData } = state;
+  const { modal, serviceModal, portfolioModal, blogModal, pageContent,pageContent1, pageContent3, testimonialItems, menus,menus1,menus3, aboutData } = state;
 
   return (
     <context.Provider
@@ -187,9 +244,13 @@ const state = (props) => {
         blogModal,
         setBlogModal,
         pageContent,
+        pageContent1,
+        pageContent3,
         setTestimonialItems,
         testimonialItems,
         menus,
+        menus1,
+        menus3,
         setAboutData,
         aboutData,
       }}

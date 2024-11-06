@@ -16,12 +16,14 @@ const Deena = ({
                 <span className="subtitle">I'm</span>
                 <h3 className="name">Dr. M. Deenadayalan  </h3>
                 <p className="sub-dep" >
-                Senior Consultant
+                HOD and Clinical Lead                                                           
                 </p>
                 <p className="text">
-                Department of Paediatric Haematology, Oncology, Blood and Marrow Transplantation
+                Dept. of Paediatric Haematology, Oncology, Blood and Marrow Transplantation
+MGM Cancer Institute and MGM Healthcare, Chennai
+
                 </p>
-                <div className="iknow_tm_video">
+                {/* <div className="iknow_tm_video">
                   <div className="video_inner">
                     <div className="circle" />
                     <h3 className="play">Play Video</h3>
@@ -30,12 +32,12 @@ const Deena = ({
                       href="https://www.youtube.com/"
                     />
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="right">
                 <div className="image">
                   <img src="/img/thumbs/47-60.jpg" alt="img" />
-                  <div className="main" data-img-url="/img/hero/avatar.png" />
+                  <div className="main" data-img-url="/img/about/img4.jpg" />
                 </div>
               </div>
             </div>

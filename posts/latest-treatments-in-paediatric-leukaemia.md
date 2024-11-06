@@ -1,7 +1,7 @@
 ---
 title: "Latest Treatments in Paediatric Leukaemia"
 image: "/img/about/img4.jpg"
-author: Dr Vimal Kumar G
+author: PHO Team
 date: "04-11-2024"
 ---
 

@@ -1046,12 +1046,7 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
   padding: 200px 0 150px;
   position: relative;
 }
-.home_banner::before{
-    position: absolute;
-    content: "";
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-}
+
 .Home_banner_left>*{
     padding: 0;
     margin: 0;
@@ -1269,12 +1264,6 @@ inset: 0;
 }
 /* Navbar.module.css */
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
   
   .logo {
    display: flex !important;
@@ -1318,11 +1307,7 @@ inset: 0;
     margin: 10px 0;
     padding: 0 20px;
   }
-  
-  .hamburger {
-    display: block;
-    cursor: pointer;
-  }
+
   
   .line {
     width: 25px;
@@ -1331,7 +1316,14 @@ inset: 0;
     margin: 5px 0;
     display: block;
   }
-  
+  .experience{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    gap: 30px;
+    list-style: none;
+    padding: 30px 0;
+  }
   /* Media Queries for Responsive Menu */
   @media (max-width: 768px) {
     .navLinks {
@@ -1363,7 +1355,7 @@ inset: 0;
     }
     .home_banner {
         padding: 150px 0 100px;
-        background-position-x: 429px;
+        background-position-x: -480px;
     }
     .about {
         display: grid;
@@ -1426,7 +1418,129 @@ inset: 0;
     .gray-bg {
         padding-bottom: 40px !important;
     }
+    .experience{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+        gap: 20px;
+        list-style: none;
+      }
 }
+
+
+/* Base styles for the navbar */
+.navbar {
+    color: #000;
+
+  }
+  
+  
+  /* Menu items styles */
+  .menu-items {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .link, .dropdown-button {
+    color: #000;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .link:hover, .dropdown-button:hover {
+    color: #eb8733;
+  }
+  
+  /* Dropdown menu */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    z-index: 1000;
+  }
+  
+  .dropdown-item {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #eb8733;
+    color: #fff;
+  }
+  
+  /* Hamburger icon for mobile */
+  .hamburger {
+    display: none !important;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .menu-items {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      padding: 20px;
+      width: 100%;
+      background-color: #ec8834;
+gap: 0.5rem;
+      transition: max-height 0.3s ease-in-out;
+      overflow: hidden;
+    }
+  .dum-con{
+    position: inherit !important;
+  }
+    .menu-items-open {
+      display: flex;
+      align-items: baseline;
+    }
+  
+    .hamburger {
+      display: block !important;
+    }
+  
+    .dropdown-menu {
+        box-shadow: none;
+        background-color: #ec8834;
+        box-shadow: none;
+        position: relative;
+    }
+  
+    .dropdown-item {
+      color: white;
+    }
+  
+    .dropdown-item:hover {
+      background-color: #555;
+    }
+  }
+  
 /*!******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./public/css/plugins.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************/
@@ -6935,7 +7049,7 @@ body.dark .loader_line:after {
   margin-bottom: 5px;
 }
 .iknow_tm_hero .name {
-  font-size: 120px;
+  font-size: 88px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 22px;
@@ -7820,9 +7934,10 @@ svg{
   margin-bottom: 6px;
 }
 .iknow_tm_main_title h3 {
-  font-size: 47px;
+  font-size: 32px;
   font-weight: 700;
   padding-bottom: 16px;
+  padding-top: 20px;
 }
 .iknow_tm_about .right {
   width: 55%;
@@ -7887,8 +8002,11 @@ padding-top: 20px;
 .affiliations li svg{
   padding-right: 20px;
   fill: #eb8733;
-  width: 43px;
+  width: 5%;
   height: 26px;
+}
+.affiliations li p{
+  width: 95%;
 }
 .appointment_inner{
   box-shadow: #eb87331e 0px 2px 8px 0px;

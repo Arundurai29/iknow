@@ -608,7 +608,7 @@ body.dark .loader_line:after {
   margin-bottom: 5px;
 }
 .iknow_tm_hero .name {
-  font-size: 120px;
+  font-size: 88px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 22px;
@@ -1534,9 +1534,10 @@ svg{
   margin-bottom: 6px;
 }
 .iknow_tm_main_title h3 {
-  font-size: 47px;
+  font-size: 32px;
   font-weight: 700;
   padding-bottom: 16px;
+  padding-top: 20px;
 }
 .iknow_tm_about .right {
   width: 55%;
@@ -1601,8 +1602,11 @@ padding-top: 20px;
 .affiliations li svg{
   padding-right: 20px;
   fill: #eb8733;
-  width: 43px;
+  width: 5%;
   height: 26px;
+}
+.affiliations li p{
+  width: 95%;
 }
 .appointment_inner{
   box-shadow: #eb87331e 0px 2px 8px 0px;
