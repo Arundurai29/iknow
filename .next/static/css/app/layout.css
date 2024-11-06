@@ -1041,12 +1041,17 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./public/css/custom.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
 .home_banner{
-  background: url(/img/about/img1.jpg) center center no-repeat;
+  background: url(/img/about/img6.jpg) center center no-repeat;
   background-size: cover;
   padding: 200px 0 150px;
   position: relative;
 }
-
+.home_banner::before{
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.2);
+    inset: 0;
+}
 .Home_banner_left>*{
     padding: 0;
     margin: 0;
@@ -1059,6 +1064,10 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
 }
 .Home_banner_left h1{
     font-size: 70px;
+    color: #fff;
+}
+.Home_banner_left p{
+
     color: #fff;
 }
 .defalut_section{

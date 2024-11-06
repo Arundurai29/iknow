@@ -35,7 +35,7 @@ const Home = () => {
       <div className="home_banner">
         <div className="container">
           <div className="Home_banner_left">
-            <h1>Expert care for young patients
+            <h1>Because every child deserves the best 
 </h1>
             <p>
               {" "}

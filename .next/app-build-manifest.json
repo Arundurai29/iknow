@@ -17,16 +17,16 @@
       "static/css/app/articles/page.css",
       "static/chunks/app/articles/page.js"
     ],
-    "/vimal/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/vimal/page.js"
-    ],
     "/article/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/article/[id]/page.css",
       "static/chunks/app/article/[id]/page.js"
+    ],
+    "/vimal/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/vimal/page.js"
     ],
     "/deena/page": [
       "static/chunks/webpack.js",
