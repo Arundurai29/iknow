@@ -6,6 +6,7 @@ import { context } from "@/context/context";
 import { iKnowUtilits } from "@/utility";
 import { shapes1 } from "@/utility/shapes";
 import { Fragment, useContext, useEffect, useState } from "react";
+import Link from "next/link";
 
 const RishabLayout = ({ darkLogo }) => {
   useEffect(() => {
@@ -47,7 +48,88 @@ const RishabLayout = ({ darkLogo }) => {
           ))}
         </div>
       </div>
-      <CopyRightText extraCls={copyRightClass} />
+       {/* CopyRightText and other sections */}
+       <div
+        className="iknow_tm_copyright"
+        style={{ paddingTop: 40, paddingBottom: 40 }}
+      >
+        <div className="container">
+          <footer className="footer">
+            <div className="footer-column">
+              <a href="/">
+
+                <img src="/img/logo/logo.png" alt="logo" />
+
+
+              </a>
+              <p>
+              Our dedicated team ensures children receive personalized, compassionate care every step of the way.
+              </p>
+            </div>
+            <div className="footer-column">
+              <h3>Doctors</h3>
+              <ul>
+               
+                        <Link href="/vimal" className="footer-item">Dr Vimal Kumar G</Link>
+                        <Link href="/deena" className="footer-item">Dr. M. Deenadayalan </Link>
+                        <Link href="/rishab" className="footer-item">Dr. Rishab Bharadwaj </Link>
+                    
+                  
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h3>Usefull Links</h3>
+              <ul>
+              <Link href="/" className="footer-item">About Us</Link>
+                        <Link href="/articles" className="footer-item">Articles</Link>
+                        <Link href="/" className="footer-item">FAQ </Link>
+                        <Link href="/" className="footer-item">Contact Us </Link>
+              </ul>
+            </div>
+            <div className="footer-column">
+              <h3>Contact</h3>
+              <ul>
+                <li><a href="mailto:drgvimal@gmail.com">drgvimal@gmail.com</a></li>
+                <li>MGM Cancer Institute : MGM Cancer Institute, Nelson Manickam Road, Rajeswari St, Rajaram Mehta Nagar, Aminjikarai, Chennai, Tamil Nadu 600029</li>
+            
+              </ul>
+            </div>
+          </footer>
+          <div className="inner">
+            <div className="left">
+              <p>
+                Copyright © Dr Vimal Kumar G. All Rights Reserved.
+              </p>
+            </div>
+            <div className="right">
+              <div className="social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img className="svg" src="/img/svg/social/facebook.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img className="svg" src="/img/svg/social/twitter.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img className="svg" src="/img/svg/social/youtube.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img className="svg" src="/img/svg/social/instagram.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </Fragment>
   );
 };
