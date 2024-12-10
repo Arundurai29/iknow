@@ -22,7 +22,7 @@ const Portfolio = () => {
   return (
     <div className="iknow_tm_portfolio">
       <div className="iknow_tm_main_title">
-        <span>Our</span>
+ 
         <h3>Appointment</h3>
       </div>
       <div className="portfolio_filter">

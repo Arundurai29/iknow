@@ -120,37 +120,7 @@ const DeenaExperience = () => {
 
         </ul>
       </div>
-      <div className="w-100 iknow_tm_main_title">
-        <h3 className="w-100">Experience in Paediatric Haematology/Oncology and BMT</h3>
-      </div>
-      <div className="affiliations">
-        <ul>
-          <li>
-            <img className="svg" src="/img/svg/dot.svg" alt="image" />
-            <p>I have more than 17 years of experience working in a tertiary Paediatric Haematology Oncology unit in various hospitals in Chennai.
-            </p></li>
-          <li>
-            <img className="svg" src="/img/svg/dot.svg" alt="image" /><p>
-              I have considerable experience treating benign blood disorders, malignant haematology like Leukaemia / Lymphoma, and solid tumours like Neuroblastoma, Germ cell tumours, Sarcoma, Hepatoblastoma and brain tumours.
-            </p></li>
-          <li>
-            <img className="svg" src="/img/svg/dot.svg" alt="image" /><p>
-              My expertise in BMT has helped me establish the Bone Marrow Transplant unit in three different hospitals (Global Hospital, KKCTH, Rela Institute) along with procuring the necessary state sponsored health insurance schemes (YSR Aarogyasri for patients from AP, TNCMCHIS for patients from TN) in these hospitals to benefit patients from all classes of society.
-            </p></li>
-          <li>
-            <img className="svg" src="/img/svg/dot.svg" alt="image" /><p>
-              I conduct outreach clinics at various places in Tamil Nadu (Coimbatore, Madurai, Theni, Tirunelveli Govt Hospitals) and Andhra Pradesh (Vizag, Vijayawada, Nellore) especially tribal areas of Andhra Pradesh where Thalassemia is more common.
-            </p></li>
-          <li>
-            <img className="svg" src="/img/svg/dot.svg" alt="image" /><p>
-              Till date, I have performed more than 700 Allogeneic and Autologous Stem cell transplants. Of these, a significant number of them are from Unrelated and Haploidentical donors. My team is also one of the few in the country to perform specialised T-cell depleted haploidentical transplants.
-            </p></li>
-          <li>
-            <img className="svg" src="/img/svg/dot.svg" alt="image" /><p>
-              I have been invited faculty to various national, zonal and state level workshops, seminars and symposium in pediatrics and pediatric respiratory medicine.
-            </p></li>
-        </ul>
-      </div>
+      
     </div>
   );
 };

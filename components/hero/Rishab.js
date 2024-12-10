@@ -23,16 +23,7 @@ const Rishab = ({
 MGM Cancer Institute and MGM Healthcare, Chennai
 
                 </p>
-                {/* <div className="iknow_tm_video">
-                  <div className="video_inner">
-                    <div className="circle" />
-                    <h3 className="play">Play Video</h3>
-                    <a
-                      className="iknow_tm_full_link popup-youtube"
-                      href="https://www.youtube.com/"
-                    />
-                  </div>
-                </div> */}
+           
               </div>
               <div className="right">
                 <div className="image">

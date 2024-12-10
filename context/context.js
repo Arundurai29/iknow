@@ -104,9 +104,8 @@ const state = (props) => {
       { id: 4, sectionId: "portfolio", component: <Portfolio /> },
       { id: 5, sectionId: "testimonials", component: <Testimonials /> },
       { id: 6, sectionId: "news", component: <Blog /> },
-      { id: 7, sectionId: "contact", component: <Contact /> },
-      { id: 8, sectionId: "affiliations", component: <Affiliations /> }, 
-      { id: 9, sectionId: "faculty", component: <Faculty /> },
+      { id: 7, sectionId: "affiliations", component: <Affiliations /> }, 
+      { id: 8, sectionId: "faculty", component: <Faculty /> },
     ],
     pageContent1: [
       { id: 1, sectionId: "about", component: <DennaAbout /> },
@@ -115,8 +114,7 @@ const state = (props) => {
       { id: 4, sectionId: "awards", component: <DeenaAwards /> },
       { id: 5, sectionId: "presentation", component: <DeenaPresentation /> },
       { id: 6, sectionId: "news", component: <DeenaPublication /> },
-      { id: 7, sectionId: "contact", component: <Contact1 /> },
-      { id: 8, sectionId: "member", component: <DeenaMember /> }, 
+      { id: 7, sectionId: "member", component: <DeenaMember /> }, 
     ],
     pageContent3: [
       { id: 1, sectionId: "about1", component: <RishabAbout /> },
@@ -124,8 +122,7 @@ const state = (props) => {
       { id: 3, sectionId: "experience", component: <RishabExperience /> },
       { id: 4, sectionId: "presentation", component: <RishabPresentation /> },
       { id: 5, sectionId: "news", component: <RishabPublication /> },
-      { id: 6, sectionId: "contact", component: <Contact2 /> },
-      { id: 7, sectionId: "member", component: <RishabMember /> }, 
+      { id: 6, sectionId: "member", component: <RishabMember /> }, 
     ], 
     menus: [
       { id: 0, href: "home", title: "Home", icon: "squares" },
@@ -137,7 +134,7 @@ const state = (props) => {
       { id: 6, href: "testimonials", title: "Presentations", icon: "presentation" },
       { id: 7, href: "news", title: "Publications", icon: "writing" },
       { id: 8, href: "faculty", title: "As Faculty", icon: "faculty" },
-      { id: 9, href: "contact", title: "Contact", icon: "letter" },
+      // { id: 9, href: "contact", title: "Contact", icon: "letter" },
     ],
     menus1: [
       { id: 0, href: "home", title: "Home", icon: "squares" },
@@ -149,7 +146,7 @@ const state = (props) => {
       { id: 6, href: "presentation", title: "Presentations", icon: "presentation" },
       { id: 7, href: "news", title: "Publications", icon: "writing" },
       // { id: 8, href: "faculty", title: "As Faculty", icon: "faculty" },
-      { id: 8, href: "contact", title: "Contact", icon: "letter" },
+      // { id: 8, href: "contact", title: "Contact", icon: "letter" },
     ],
     menus3: [
       { id: 0, href: "home", title: "Home", icon: "squares" },
@@ -160,7 +157,7 @@ const state = (props) => {
       { id: 5, href: "presentation", title: "Presentations", icon: "presentation" },
       { id: 6, href: "news", title: "Publications", icon: "writing" },
     
-      { id: 7, href: "contact", title: "Contact", icon: "letter" },
+      // { id: 7, href: "contact", title: "Contact", icon: "letter" },
     ],
     aboutData: {
       name: "Dr Vimal Kumar G",

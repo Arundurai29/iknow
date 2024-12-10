@@ -610,7 +610,7 @@ body.dark .loader_line:after {
   margin-bottom: 5px;
 }
 .iknow_tm_hero .name {
-  font-size: 88px;
+  font-size: 58px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 22px;
@@ -751,9 +751,9 @@ body.dark .loader_line:after {
   float: left;
   background-color: #fff;
   position: relative;
-  height: 135px;
-  width: 135px;
-  padding: 48px;
+  height: 100px;
+
+  padding: 30px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 18px 18px 48px rgba(108, 99, 255, 0.1);
@@ -764,6 +764,7 @@ body.dark .loader_line:after {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .iknow_tm_hero .main_menu ul li .svg {
   width: 40px;
   height: 40px;
@@ -1626,6 +1627,13 @@ padding-top: 20px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
+}
+.pre_date{
+    text-decoration: none;
+    color: #cbcbcb !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+    display: block;
 }
 .gallery_zoom{
   display: grid;

@@ -8,10 +8,6 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const toggleMenu = (menu) => {
-    setOpenMenu(openMenu === menu ? null : menu);
-  };
-
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
@@ -24,10 +20,14 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
   }, []);
 
   return (
-    <div style={{
-      backgroundColor: isScrolled ? 'white' : 'transparent',
-      transition: 'background-color 0.3s',
-    }} className="iknow_tm_topbar" data-position="absolute">
+    <div
+      style={{
+        backgroundColor: isScrolled ? 'white' : 'transparent',
+        transition: 'background-color 0.3s',
+      }}
+      className="iknow_tm_topbar"
+      data-position="absolute"
+    >
       <div className="container">
         <div className="topbar_inner">
           <div className="logo">
@@ -41,22 +41,25 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
 
             <nav className="navbar">
               <div className="container dum-con">
-
                 <button className="hamburger" onClick={toggleMobileMenu}>
                   ☰
                 </button>
 
                 <div className={`menu-items ${mobileMenuOpen ? 'menu-items-open' : ''}`}>
                   <Link href="/" className="link">Home</Link>
-                  <div className="dropdown">
-                    <button style={{ fontSize: 18 }} onClick={() => toggleMenu('products')} className="dropdown-button">
+                  <div
+                    className="dropdown"
+                    onMouseEnter={() => setOpenMenu('products')}
+                    onMouseLeave={() => setOpenMenu(null)}
+                  >
+                    <button style={{ fontSize: 17  }} className="dropdown-button">
                       Doctors
                     </button>
                     {openMenu === 'products' && (
                       <div className="dropdown-menu">
                         <Link href="/vimal" className="dropdown-item">Dr Vimal Kumar G</Link>
-                        <Link href="/deena" className="dropdown-item">Dr. M. Deenadayalan </Link>
-                        <Link href="/rishab" className="dropdown-item">Dr. Rishab Bharadwaj </Link>
+                        <Link href="/deena" className="dropdown-item">Dr. M. Deenadayalan</Link>
+                        <Link href="/rishab" className="dropdown-item">Dr. Rishab Bharadwaj</Link>
                       </div>
                     )}
                   </div>
@@ -65,13 +68,12 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
                 </div>
               </div>
             </nav>
-
           </div>
           <div className="right">
-            {topbarIcon && <SocialIcons />}
+            {/* {topbarIcon && <SocialIcons />} */}
             <div className="iknow_tm_button">
               <a href="#" download>
-                Request Appoinment
+                Request Appointment
               </a>
             </div>
           </div>

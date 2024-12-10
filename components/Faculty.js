@@ -76,7 +76,7 @@ const Faculty = () => {
   return (
     <div className="iknow_tm_news">
       <div className="iknow_tm_main_title">
-        <span>Faculty As</span>
+      
         <h3>Courses & Conferences Attended </h3>
       </div>
       <div className="news_list">

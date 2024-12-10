@@ -62,8 +62,8 @@ const Home = () => {
               <img src="/img/about/medical.png" />
             </div>
             <div className="about_right">
-              <span>About Us</span>
-              <h2>About PHO</h2>
+              {/* <span>About Us</span> */}
+              <h2>About Us</h2>
               <p>
                 We at PHO, offers a holistic care in diagnosis, treatment and
                 prevention of all blood related disorders and cancers in

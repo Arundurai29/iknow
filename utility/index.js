@@ -146,11 +146,11 @@ export const iKnowUtilits = {
         menu.classList.add("entered");
         const width =
           menu.getElementsByTagName("span")[0].offsetWidth + menu.offsetWidth;
-        menu.style.width = `${width}px`;
+        menu.style.width = `300px`;
       });
       menu.addEventListener("mouseleave", () => {
         menu.classList.remove("entered");
-        menu.style.width = `135px`;
+        menu.style.width = `100px`;
       });
     });
   },

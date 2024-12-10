@@ -54,6 +54,16 @@ const Blog = () => {
       content: "‘Outcomes for high-risk hepatoblastoma in a resource-challenged setting’ ",
       place: " BJS open 2020; 4: 630–636",
     },
+    {
+      id:11 ,
+      content: "‘Multidisciplinary management of hepatoblastoma in children: Experience from a developing country’ ’ ",
+      place: "Pediatric Blood and Cancer, 2017; 64: e26249",
+    },
+    {
+      id:12 ,
+      content: "‘Extensive nail changes in a toddler with multisystemic Langerhans cell histiocytosis ",
+      place: "Pediatric Dermatology, 2017;34:732-734",
+    },
    
   ];
   const { modalToggle, setBlogModal } = useContext(context);

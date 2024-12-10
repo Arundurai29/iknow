@@ -59,6 +59,11 @@ const RishabPublication = () => {
      content: "	Bharadwaj R, Ajeitha L, Srinivasan A, Scott JX. Cytogenetic profile in children with B-Acute Lymphoblastic Leukemia and its correlation with induction outcomes.  ",
       place: " Pediatric Hematology Oncology Journal. 2018;3(3):S17-8",
     },
+    {
+      id:12 ,
+     content: "Loganathan A, Srinivasan A, Kumar N, Bharadwaj R, Scott JX. Microbiological profile and outcomes of infections during induction therapy in childhood Acute Lymphoblastic Leukemia. ",
+      place: " Pediatric Hematology Oncology Journal. 2017;2(2):S28.",
+    },
   ];
   const { modalToggle, setBlogModal } = useContext(context);
   return (

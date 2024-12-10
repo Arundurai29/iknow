@@ -5,59 +5,64 @@ const DeenaPublication = () => {
   const publications = [
     {
       id: 1,
-      content: "	Congenital Esophageal stenosis.  ",
-      place: " Indian Journal of Practical Pediatrics, Year 2005, Vol 7, Issue 2 ",
+      content: "A Single Centre Experience of Effective Desensitization Strategy for Children with High Anti-HLA Donor-Specific Antibodies Undergoing Haploidentical Hematopoietic Stem Cell Transplantation. ",
+      place: " Indian Journal of Hematology and Blood Transfusion. 2023 Jun 20:1-5 ",
     },
     {
       id: 2,
-      content: "	Pediatric Strokes: A hospital based observation. ",
-      place: "Journal of Pediatric Neurology, Year 2006, vol 4. ",
+      content: "Clinical Profile of Hepatitis Associated Aplastic Anemia (HAAA) in Six Children. ",
+      place: "Indian Pediatrics. 2023 May;60(5):410-1. ",
     },
     {
       id: 3,
-      content: "	Richner Hanhart Syndrome.",
-      place: " Indian Journal of Pediatrics, Year 2006, Feb, Volume 73,  Issue 2, pg 161-2Pediatr Blood Cancer. 2023; 70: e30024",
+      content: "Pre-Transplant Immunosuppression for High Risk Thalassaemia: A Ray of Hope. ",
+      place: "Indian Journal of Hematology and Blood Transfusion. 2023 Jan;39(1):161-2.",
     },
 
     {
       id:4 ,
-      content: " Neonatal Bartter syndrome. Indian Pediatrics ",
-      place: ", Year 2006, Aug, Vol 43, Issue 8, pg   735-7 ",
+      content: "Mendelian Susceptibility to Mycobacterial Disease Masquerading as Lymphoproliferative Disorder.  ",
+      place: "Journal of Applied Hematology. 2020 Jul 1;11(3):145.",
     }, 
     {
       id: 5,
-      content: "		Mixed connective tissue disease in children ",
-      place: " Indian Journal of Practical Pediatrics, Year 2006, Jan-Mar, Issue 1.",
+      content: "X-linked Lymphoproliferative Disease (XLP1) Presenting as Non-Epstein Barr Virus (EBV) - Related Hemophagocytic Lymphohistiocytosis (HLH). ",
+      place: "Indian Pediatrics. 2020 Nov 15;57(11):1077-1078.",
     },
     {
       id: 6,
-      content: " ‘Interstitial lung disease in infancy. ",
-      place: "Indian Journal of Pediatrics, Year 2007, July Volume 74,  Issue 7, pg 637-9.",
+      content: "X-linked Lymphoproliferative Disease (XLP1) Presenting as Non-Epstein Barr Virus (EBV) - Related Hemophagocytic Lymphohistiocytosis (HLH). ",
+      place: "Indian Pediatrics. 2020 Nov 15;57(11):1077-1078.",
     },
     {
       id: 7,
-      content: " 	Transient Methemoglobinemia in infancy",
-      place: "	Indian Journal of Pediatrics, Year 2007 Nov, Vol 74, Issue 11, pg 1037-8 ",
+      content: "Clinical, Immunological, and Molecular Features of Severe Combined Immune Deficiency: A multi-institutional experience from India. ",
+      place: "	Frontiers in immunology. 2021 Feb 8;11:619146.",
     },
     {
       id: 8,
-      content: "	Unusual presentation of HIV Vasculopathy in a child",
-      place: "Indian Journal of Hematology and Blood Transfusion. 2011. Sep;27(3):169-71.  ",
+      content: "The spectrum of clinical, immunological and molecular findings in Familial hemophagocytic lymphohistiocytosis (FHL)",
+      place: "Frontiers in Immunology. 2021 Mar 5;12:612583.  ",
     },
     {
       id: 9,
-      content: " 	Autologous Immune Enhancement therapy in Philadelphia Chromosome positive Acute Lymphoblastic Leukaemia.  ",
-      place: "Indian Journal of Hematology and Blood Transfusion. 2014 Sep; 30 (Suppl 1):202-4 ",
+      content: "Clinical, immunological, and molecular profile of Chronic Granulomatous Disease: A    multicentric study of 236 patients from India. ",
+      place: "Frontiers in immunology. 2021 Feb 25;12:625320.",
     },
     {
       id:10 ,
-      content: "	Kaposiform Hemangioendothelioma in a 3 Months Old Infant.",
-      place: " Indian Journal of Hematology and Blood Transfusion..Published online April 2016  ",
+      content: "Clinical and Genetic Spectrum of a Large Cohort of Patients With Leukocyte   Adhesion Deficiency Type 1 and 3: A Multicentric Study From India.  ",
+      place: " Frontiers in Immunology. 2020 Dec 16;11:612703.",
     },
     {
       id:11 ,
-      content: "Multidisciplinary management of hepatoblastoma in children: Experience from a developing country. ",
-      place: " Pediatric Blood and Cancer, DOI: 10.1002/pbc.26249",
+      content: "Prolidase Deficiency in Very Early Onset Inflammatory Bowel Disease (VEO-IBD). Indian Journal of Pediatrics. ",
+      place: "Indian Journal of Pediatrics. 2021 May;88:503-.",
+    },
+    {
+      id:11 ,
+      content: "Varied clinical manifestations of LRBA protein deficiency (Immune dysregulation disorder) – A case series.   ",
+      place: " Indian Pediatrics. 2021 Mar;58:285-6.",
     },
   ];
   const { modalToggle, setBlogModal } = useContext(context);
