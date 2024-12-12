@@ -65,6 +65,7 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
                   </div>
 
                   <Link href="/articles" className="link">Articles</Link>
+                  <Link href="/contact" className="link">Contact Us</Link>
                 </div>
               </div>
             </nav>

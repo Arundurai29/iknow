@@ -92,7 +92,7 @@ export default async function Blogs({ searchParams }) {
                                 <Link href="/" className="footer-item">About Us</Link>
                                 <Link href="/articles" className="footer-item">Articles</Link>
                                 <Link href="/" className="footer-item">FAQ </Link>
-                                <Link href="/" className="footer-item">Contact Us </Link>
+                                <Link href="/contact" className="footer-item">Contact Us </Link>
                             </ul>
                         </div>
                         <div className="footer-column">
@@ -107,7 +107,7 @@ export default async function Blogs({ searchParams }) {
                     <div className="inner">
                         <div className="left">
                             <p>
-                                Copyright © Dr Vimal Kumar G. All Rights Reserved.
+                                Copyright © PHOchennai. All Rights Reserved.
                             </p>
                         </div>
                         <div className="right">

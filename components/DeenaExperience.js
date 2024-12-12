@@ -38,7 +38,7 @@ const DeenaExperience = () => {
             </div>
             <div className="appointment_date">
               <span>Chennai</span>
-              <span>2015 - 2019 </span>
+              <span>2019 - 2024 </span>
             </div>
           </div>
         </li>

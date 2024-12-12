@@ -2776,6 +2776,7 @@ svg.CircularProgressbar {
 /*---------------------------------------------------*/
 
 .iknow_tm_contact {
+  padding: 60px 0;
   width: 100%;
   height: auto;
   clear: both;
@@ -2787,7 +2788,7 @@ svg.CircularProgressbar {
   clear: both;
   float: left;
   display: flex;
-  padding-top: 70px;
+  padding-top:30px;
 }
 .iknow_tm_contact .wrapper .left {
   width: 35%;
@@ -2796,6 +2797,9 @@ svg.CircularProgressbar {
 .iknow_tm_contact .wrapper .left ul {
   margin: 0px;
   list-style-type: none;
+}
+.footer-item:hover{
+  color: #eb8733 !important;
 }
 .iknow_tm_contact .wrapper .left ul li {
   margin: 0px 0px 25px 0px;
