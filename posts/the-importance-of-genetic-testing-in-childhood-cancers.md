@@ -1,6 +1,6 @@
 ---
 title: "The Importance of Genetic Testing in Childhood Cancers"
-image: "/img/about/img6.jpg"
+image: "/img/artical/childhood-cancer.jpg"
 author: PHO Team
 date: "27-11-2024"
 ---

@@ -19,6 +19,10 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Separate states for each dropdown
+  const [openDoctorsMenu, setOpenDoctorsMenu] = useState(false);
+  const [openTreatmentsMenu, setOpenTreatmentsMenu] = useState(false);
+
   return (
     <div
       style={{
@@ -47,19 +51,38 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
 
                 <div className={`menu-items ${mobileMenuOpen ? 'menu-items-open' : ''}`}>
                   <Link href="/" className="link">Home</Link>
+                  
+                  {/* Doctors Dropdown */}
                   <div
                     className="dropdown"
-                    onMouseEnter={() => setOpenMenu('products')}
-                    onMouseLeave={() => setOpenMenu(null)}
+                    onMouseEnter={() => setOpenDoctorsMenu(true)}
+                    onMouseLeave={() => setOpenDoctorsMenu(false)}
                   >
-                    <button style={{ fontSize: 17  }} className="dropdown-button">
+                    <button style={{ fontSize: 17 }} className="dropdown-button">
                       Doctors
                     </button>
-                    {openMenu === 'products' && (
+                    {openDoctorsMenu && (
                       <div className="dropdown-menu">
                         <Link href="/vimal" className="dropdown-item">Dr Vimal Kumar G</Link>
                         <Link href="/deena" className="dropdown-item">Dr. M. Deenadayalan</Link>
                         <Link href="/rishab" className="dropdown-item">Dr. Rishab Bharadwaj</Link>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Treatments Dropdown */}
+                  <div
+                    className="dropdown"
+                    onMouseEnter={() => setOpenTreatmentsMenu(true)}
+                    onMouseLeave={() => setOpenTreatmentsMenu(false)}
+                  >
+                    <button style={{ fontSize: 17 }} className="dropdown-button">
+                      Treatments
+                    </button>
+                    {openTreatmentsMenu && (
+                      <div className="dropdown-menu">
+                        <Link href="/treatment/anaemia" className="dropdown-item">Anaemia</Link>
+                        <Link href="/treatment/immune" className="dropdown-item">Immune</Link>
                       </div>
                     )}
                   </div>

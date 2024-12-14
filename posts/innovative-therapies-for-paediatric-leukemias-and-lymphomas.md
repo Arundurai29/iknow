@@ -1,6 +1,6 @@
 ---
 title: "Innovative Therapies for Paediatric Leukemias and Lymphomas"
-image: "/img/about/img6.jpg"
+image: "/img/artical/Lymphomas.jpg"
 author: PHO Team
 date: "27-11-2024"
 ---

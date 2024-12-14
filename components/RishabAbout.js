@@ -9,7 +9,7 @@ const RishabAbout = () => {
         <div className="left_inner">
           <div className="image">
             <img src="/img/thumbs/35-44.jpg" alt="image" />
-            <div className="main" data-img-url="/img/about/img4.jpg" />
+            <div className="main" data-img-url="/img/hero/avatar2.webp" />
           </div>
           <div className="details">
             <ul>
@@ -43,9 +43,13 @@ const RishabAbout = () => {
         </div> */}
         <div className="text">
           <p>
-          Dr. Rishab Bharadwaj is a dedicated Consultant in Pediatric Hematology, Oncology, and Bone Marrow Transplantation at MGM Cancer Institute and MGM Healthcare in Chennai. With a strong foundation in pediatric healthcare, Dr. Bharadwaj completed his MBBS from Government Stanley Medical College in Chennai, followed by an MD in Pediatrics from Smt. NHL Municipal Medical College in Ahmedabad. He further specialized with a Post-doctoral Fellowship in Pediatric Hematology-Oncology at the Kanchi Kamakoti CHILDS Trust Hospital. His international experience includes Senior Clinical Fellow roles at St. Mary’s Hospital, Imperial College NHS Trust in London, and Kokilaben Dhirubhai Ambani Hospital in Mumbai, enriching his expertise in pediatric oncology and complex hematology cases.
+          Dr. Rishab Bharadwaj is a distinguished Paediatric Haematologist and Oncologist. With 7 years of experience in tertiary and quaternary care Paediatric Haematology & Oncology units across Chennai and the UK, he has honed his skills in providing top-notch care to young patients.
+          <br/><br/>
+He received specialized training at St. Mary’s Hospital in London, UK, a pioneer centre for haploidentical transplantation for haematological disorders in the UK. This training has equipped him with advanced expertise in the field, particularly in performing over 300 Allo- geneic and Autologous Stem Cell transplants.
 <br/><br/>
-Dr. Bharadwaj is also an active researcher with multiple studies in pediatric immunology and neonatology. His notable projects include a study on primary immunodeficiency diseases in South Indian children and research on neonatal renal parameters and serum calcium levels in cases of birth asphyxia. His work has earned him recognition, including an ICMR Short Term Studentship for his research on Group A Beta Hemolytic Streptococci in the pediatric population. Known for his compassionate care and dedication to pediatric health, Dr. Bharadwaj can be reached at +91-9791402262 or rishab11@gmail.com. His practice address is A4, Urban Tree Awesome, 120, LB Road, Kamaraj Nagar, Thiruvanmiyur, Chennai – 600041.
+He is an expert in benign and malignant haematology, solid tumours, immunodeficiencies and bone marrow transplants. His special interest lies in cellular and immunotherapy, where he applies innovative techniques to improve patient outcomes. His dedication to advancing medical care and his compassionate approach make him a valued professional in the medical community.
+
+He is strongly focussed on academic pursuits and has numerous publications to his credit in various indexed journals.
           </p>
         </div>
         

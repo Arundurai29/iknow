@@ -1,6 +1,6 @@
 ---
 title: "Advances in Blood Transfusion Safety for Children"
-image: "/img/about/img6.jpg"
+image: "/img/artical/Safety for Children.jpg"
 author: PHO Team
 date: "27-11-2024"
 ---

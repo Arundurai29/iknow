@@ -10,6 +10,12 @@
     padding: 200px 0 150px;
     position: relative;
 }
+.treatment_banner{
+    background: url(../img/artical/childhood-cancer.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0 150px;
+    position: relative;
+}
 
 .post_banner h2{
     font-size: 46px;
@@ -22,6 +28,14 @@
     flex: 2;
   
 }
+.single-treat{
+    flex: 3;
+}
+.active-link {
+  color: #FF6347; /* Example color, change as needed */
+  font-weight: bold;
+}
+
 .post_contents{
     background-color: #ffffff;
     border-radius:0 0 8px 8px;
@@ -82,10 +96,42 @@ margin-right: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
 }
+.treatment-recent{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ 
+}
+.treatment-help{
+    padding: 40px;
+    margin-top: 40px;
+    background: #eb8733;
+    border-radius: 8px;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+.treatment-help h4{
+ color: #fff;
+ text-align: center;
+ font-size: 30px;
+}
+.treatment-help h4 span{
+    color: #60b652;
+}
+.treatment-help img{
+    width: 100px;
+}
 .recent-posts h2 {
     margin-bottom: 15px;
 }
-
+.treatment-contact{
+    background: #fff;
+    border: 2px dashed hsl(0deg 0% 0% / 20%);
+    padding: 20px;
+    margin-top: 30px;
+}
 .recent-posts ul {
     list-style-type: none;
     padding: 0;
@@ -112,7 +158,30 @@ margin-right: 10px;
 .recent-posts a:hover {
     color: #eb8733;
 }
+.treatment-recent li {
+    padding: 20px;
+    display: flex
+;
+    justify-content: space-between;
+    border: none;
+    border-radius: 8px;
+}
+.treatment-recent li.current {
+    background-color: #ff6600; 
+ 
+  }
+  .treatment-recent li.current a {
 
+    color: #fff !important;
+  }
+  
+  .treatment-recent li.current a {
+    color: #ff6600;
+  }
+  .treatment-recent li img{
+    width: 30px;
+    height: 30px;
+  }
 textarea {
     width: 100%;
     height: 150px;

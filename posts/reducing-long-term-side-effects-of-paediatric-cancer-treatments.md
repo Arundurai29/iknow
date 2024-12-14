@@ -1,6 +1,6 @@
 ---
 title: "Reducing Long-Term Side Effects of Paediatric Cancer Treatments"
-image: "/img/about/img1.jpg"
+image: "/img/artical/Paediatric Cancer Treatments.jpg"
 author: PHO Team
 date: "04-11-2024"
 ---

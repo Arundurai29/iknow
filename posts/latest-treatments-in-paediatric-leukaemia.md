@@ -1,6 +1,6 @@
 ---
 title: "Latest Treatments in Paediatric Leukaemia"
-image: "/img/about/img4.jpg"
+image: "/img/artical/Paediatric Leukaemia.jpg"
 author: PHO Team
 date: "04-11-2024"
 ---

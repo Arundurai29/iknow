@@ -1,6 +1,6 @@
 ---
 title: "Managing Side Effects in Children Undergoing Cancer Therapy"
-image: "/img/about/img4.jpg"
+image: "/img/artical/Cancer Therapy.jpg"
 author: PHO Team
 date: "27-11-2024"
 ---

@@ -9,7 +9,7 @@ const DeenaAbout = () => {
         <div className="left_inner">
           <div className="image">
             <img src="/img/thumbs/35-44.jpg" alt="image" />
-            <div className="main" data-img-url="/img/about/img4.jpg" />
+            <div className="main" data-img-url="/img/hero/avatar1.png" />
           </div>
           <div className="details">
             <ul>
@@ -44,9 +44,11 @@ const DeenaAbout = () => {
         <div className="text">
           <p>
 
-          Dr. M. Deenadayalan is a leading expert in Pediatric Hematology and Oncology with over 17 years of experience in treating complex pediatric conditions such as leukemia, lymphoma, neuroblastoma, and various solid tumors. Currently, he serves as the Head of Department and Clinical Lead for Pediatric Hematology, Oncology, and Bone Marrow Transplantation at MGM Cancer Institute and MGM Healthcare in Chennai. His impressive qualifications include an MBBS, DCH, DNB in Pediatrics, along with specialized fellowships in Pediatric Hematology and Oncology from the Indian Academy of Pediatrics and the National Board of Examination, New Delhi. Dr. Deenadayalan has played a pivotal role in establishing Bone Marrow Transplant (BMT) units at multiple institutions, where he introduced state-sponsored health insurance to provide equitable healthcare access for patients from all socioeconomic backgrounds.
+          Dr. M. Deenadayalan is an esteemed Paediatric Haematologist and Oncologist known for his exceptional clinical skills and extensive experience in treating a range of paediatric conditions. With over 18 years in the field, he specializes in benign blood disorders, malignant haematology (including leukaemia and lymphoma), immunodeficiencies and solid tumours such as neuroblastoma, germ cell tumours, sarcoma, hepatoblastoma, and brain tumours.
+          <br/><br/>
+He has received training from prestigious institutions across the world in Taiwan, UK, and USA. He has been instrumental in setting up Bone Marrow Transplant units in 4 different hospitals and performing more than 700 Allogeneic and Autologous Stem Cell Transplants to date. He has a vision of incorporating Cellular and Immunotherapy into routine clinical practice.
 <br/><br/>
-Throughout his career, Dr. Deenadayalan has performed over 700 Allogeneic and Autologous Stem Cell Transplants, including a significant number from unrelated and haploidentical donors, making his team one of the few in India capable of executing advanced T-cell depleted haploidentical transplants. He also extends his services to various outreach clinics across Tamil Nadu and Andhra Pradesh, focusing on under-resourced areas where conditions like thalassemia are prevalent. A respected educator and speaker, Dr. Deenadayalan is regularly invited to lead workshops and seminars at national, state, and regional levels, sharing his expertise in pediatrics and respiratory medicine. Dr. Deenadayalan can be reached at +91-9841089345 or drdeenadayalanm@gmail.com for consultations and inquiries.
+His dedication to advancing medical care and his compassionate approach make him a respected figure in the medical community and a trusted healthcare provider for his patients and their families. The goal of his team is curative and compassionate care at an affordable cost.
           </p>
         </div>
         

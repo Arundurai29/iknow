@@ -1,6 +1,6 @@
 ---
 title: "Coping Strategies for Families of Children with Blood Disorders"
-image: "/img/about/img6.jpg"
+image: "/img/artical/Blood Disorders.jpg"
 author: PHO Team
 date: "27-11-2024"
 ---
