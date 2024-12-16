@@ -1568,7 +1568,12 @@ inset: 0;
 
   }
   
-  
+  .link.active, 
+.dropdown-item.active {
+  color: #eb8733; 
+  font-weight: 600; 
+
+}
   /* Menu items styles */
   .menu-items {
     display: flex;

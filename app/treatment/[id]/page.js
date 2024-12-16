@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export default async function Post({ params, searchParams }) {
   const postData = await getPostData(params.id);
   const allPostsData = getSortedPostsData();
-  const recentPosts = allPostsData.slice(0, 4); // Get the most recent 4 posts
+  const recentPosts = allPostsData.slice(0, 8); // Get the most recent 4 posts
 
   const searchQuery = searchParams?.search || "";
   const filteredRecentPosts = recentPosts.filter((post) =>
@@ -26,7 +26,7 @@ export default async function Post({ params, searchParams }) {
   return (
     <>
       <TopBar />
-      <div className="treatment_banner">
+      <div style={{ backgroundImage: `url(${postData.breadcrmb})` }}  className="treatment_banner">
         <div className="container">
           <h1>{postData.title}</h1>
         </div>
@@ -39,11 +39,13 @@ export default async function Post({ params, searchParams }) {
               <ul>
                 {filteredRecentPosts.map(({ id, title }) => (
                   <li
-                    key={id}
+                    key={id} 
                     className={id === params.id ? 'current' : ''}
                   >
+                    <Link className="treatment_link" href={`/treatment/${id}`}>
                     <span><Link href={`/treatment/${id}`}>{title}</Link></span>
                     <img src="/img/artical/next.png" alt="Customer Care" />
+                    </Link>
                   </li>
                 ))}
               </ul>
