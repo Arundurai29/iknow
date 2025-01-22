@@ -1737,6 +1737,10 @@ gap: 0.5rem;
   .iknow_tm_topbar .topbar_inner {
     padding-top: 0 !important;
 }  
+.link.active, .dropdown-item.active {
+  color: #ffffff !important;
+  font-weight: 600;
+}
   }
   
 
@@ -1782,7 +1786,7 @@ gap: 0.5rem;
   display: block;
   margin: 30px auto;
   padding: 10px 20px;
-  background-color: #4caf50;
+  background-color: #eb8733;
   color: white;
   border: none;
   border-radius: 5px;
@@ -1792,7 +1796,9 @@ gap: 0.5rem;
 }
 
 .load-more:hover {
-  background-color: #45a049;
+  background-color: #ffffff;
+  border: 1px solid #eb8733;
+  color: #eb8733;
 }
 
 .lightbox {

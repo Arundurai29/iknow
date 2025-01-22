@@ -152,6 +152,9 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
                   <Link href="/articles" className={`link ${isActiveLink("/articles") ? "active" : ""}`}>
                     Articles
                   </Link>
+                  <Link href="/gallery" className={`link ${isActiveLink("/gallery") ? "active" : ""}`}>
+                    Gallery
+                  </Link>
                   <Link href="/contact" className={`link ${isActiveLink("/contact") ? "active" : ""}`}>
                     Contact Us
                   </Link>
