@@ -42,19 +42,19 @@ const Footer = ({ topbarIcon = true, darkLogo = true }) => {
                 <Link href="/treatment/immune">Immune</Link>
               </li>
               <li>
-                <Link href="/treatment/acute-leukaemia" className="dropdown-item">Acute Leukaemia</Link>
+                <Link href="/treatment/acute-leukaemia" >Acute Leukaemia</Link>
               </li>
               <li>
-                <Link href="/treatment/aplastic-anaemia" className="dropdown-item">Aplastic Anaemia</Link>
+                <Link href="/treatment/aplastic-anaemia" >Aplastic Anaemia</Link>
               </li>
               <li>
-                <Link href="/treatment/blood-and-marrow-transplantation" className="dropdown-item">Blood Marrow transplantation</Link>
+                <Link href="/treatment/blood-and-marrow-transplantation" >Blood Marrow transplantation</Link>
               </li>
               <li>
-                <Link href="/treatment/itp" className="dropdown-item">ITP</Link>
+                <Link href="/treatment/itp" >ITP</Link>
               </li>
               <li>
-                <Link href="/treatment/thalassaemia" className="dropdown-item">Thalassaemia</Link>
+                <Link href="/treatment/thalassaemia" >Thalassaemia</Link>
               </li>
 
             </ul>
@@ -80,7 +80,7 @@ const Footer = ({ topbarIcon = true, darkLogo = true }) => {
             <h3>Contact</h3>
             <ul>
               <li>
-                <a href="mailto:drgvimal@gmail.com">drgvimal@gmail.com</a>
+                <a href="mailto: phochennai.com"> phochennai.com</a>
               </li>
               <li>
                 MGM Cancer Institute, Nelson Manickam Road, Rajeswari St,

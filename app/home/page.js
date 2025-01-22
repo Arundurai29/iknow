@@ -4,8 +4,31 @@ import CopyRightText from "@/components/CopyRightText";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
+import { Pagination, Navigation } from 'swiper';
 const Home = () => {
+  const testimonials = [
+    {
+      name: "John Doe",
+      text: "This service is amazing! I highly recommend it to everyone.",
+      image: "/img/about/familyd.png",
+    },
+    {
+      name: "Jane Smith",
+      text: "I've never had a better experience. Exceptional quality!",
+      image: "/img/about/familyd.png",
+    },
+    {
+      name: "Mike Johnson",
+      text: "A fantastic service that exceeded all my expectations.",
+      image: "/img/about/familyd.png",
+    },
+  ];
+
   const [activeTab, setActiveTab] = useState("home");
 
   const handleTabClick = (target) => {
@@ -59,7 +82,7 @@ const Home = () => {
         <div className="container">
           <div className="about">
             <div className="about_left">
-              <img src="/img/about/img2.jpg" />
+              <img src="/img/about/img8.jpg" />
               <img src="/img/about/medical.png" />
             </div>
             <div className="about_right">
@@ -130,7 +153,12 @@ const Home = () => {
             >
               Bone Marrow (Stem Cell) Transplantation
             </div>
-
+            <div
+              className={`navtab ${activeTab === "page5" ? "active" : ""}`}
+              onClick={() => handleTabClick("page5")}
+            >
+           No of publications
+            </div>
             <div className="underline"></div>
           </div>
 
@@ -329,7 +357,7 @@ const Home = () => {
           </div>
 
           <div className="obj_cards">
-            <div className="obj_left">
+       
               <div className="obj_card">
                 <h3>Deliver Comprehensive, Patient-Centered Care</h3>
                 <p>
@@ -357,11 +385,7 @@ const Home = () => {
                   through treatment and long-term follow-up.
                 </p>
               </div>
-            </div>
-            <div className="obj_midle">
-              <img src="/img/about/img5.png" alt="" />
-            </div>
-            <div className="obj_right">
+           
               <div className="obj_card">
                 <h3>Advance Research and Clinical Trials</h3>
                 <p>
@@ -396,10 +420,51 @@ const Home = () => {
                 burden of these diseases.{" "}
               </p>
             </div> */}
-          </div>
+        
         </div>
       </div>
+      
+      <section className='testimonialSection'>
+      <div className="container">
+      <div className="title_section">
+            <span>Testimonials</span>
+            <h2>What Our Customers Say</h2>
+            <img src="/img/about/title-line.png" />
+          </div>
 
+      <Swiper
+       modules={[Pagination, Navigation]}
+       spaceBetween={30}
+       navigation
+       pagination={{ clickable: true }}
+       breakpoints={{
+         // When the viewport width is >= 0px, show 1 slide
+         0: {
+           slidesPerView: 1,
+         },
+         // When the viewport width is >= 768px, show 3 slides
+         768: {
+           slidesPerView: 3,
+         },
+       }}
+        className='swiper'
+      >
+        {testimonials.map((testimonial, index) => (
+          <SwiperSlide key={index} className='slide'>
+            <div className='card'>
+              <img
+                src={testimonial.image}
+                alt={`${testimonial.name}'s photo`}
+                className='image'
+              />
+              <p className='text'>{testimonial.text}</p>
+              <h3 className='name'>{testimonial.name}</h3>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      </div>
+    </section>
       {/* Existing content */}
 
       <div className="cta_area">

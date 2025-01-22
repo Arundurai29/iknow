@@ -23,7 +23,7 @@ const Portfolio = () => {
     <div className="iknow_tm_portfolio">
       <div className="iknow_tm_main_title">
  
-        <h3>Appointment</h3>
+        <h3>Expertise</h3>
       </div>
       <div className="portfolio_filter">
         <ul>

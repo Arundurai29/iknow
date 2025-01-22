@@ -1,5 +1,11 @@
 .home_banner{
-  background: url(/img/about/img6.jpg) center center no-repeat;
+  background: url(/img/about/img6.jpg)  no-repeat;
+  background-size: cover;
+  padding: 200px 0 150px;
+  position: relative;
+}
+.gallery_banner{
+  background: url(../img/about/img4.jpg) no-repeat center center;
   background-size: cover;
   padding: 200px 0 150px;
   position: relative;
@@ -40,7 +46,7 @@
     position: relative;
 }
 .about_left img:first-child{
-    height: 90%;
+    height: 10 0%;
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
@@ -55,7 +61,7 @@
     display: grid;
     gap: 20px;
     place-items: start;
-    place-content: start;
+    place-content: center;
     padding: 40px 0 40px 40px;
 }
 .about_right span{
@@ -89,7 +95,7 @@
     place-items: center;
     gap: 20px;
 }
-.title_section span{
+.cta_area .title_section span{
     color: #FFF;
 }
 .title_section h2{
@@ -124,6 +130,8 @@
     gap: 40px;
 }
 .obj_card{
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background: #fff;
     border-radius: 8px;
     display: grid;
@@ -556,3 +564,165 @@ gap: 0.5rem;
 }  
   }
   
+
+  /* gallery.module.css */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 15px;
+  margin: 100px auto 50px;
+
+}
+
+.gallery-item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.load-more {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.load-more:hover {
+  background-color: #45a049;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox.open {
+  visibility: visible;
+  opacity: 1;
+  z-index: 99999;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  background: transparent;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+/* components/TestimonialSection.module.css */
+.testimonialSection {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.swiper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.swiper{
+  margin-top: 60px !important;
+}
+.text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: bold;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 24px !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 0px !important;
+}
+.swiper-button-next, .swiper-button-prev {
+  color: #ff451b !important;
+}
+.swiper-pagination-bullet-active {
+  background: #ff451b !important;
+}

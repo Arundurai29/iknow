@@ -9,7 +9,7 @@ const RishabAbout = () => {
         <div className="left_inner">
           <div className="image">
             <img src="/img/thumbs/35-44.jpg" alt="image" />
-            <div className="main" data-img-url="/img/hero/avatar2.webp" />
+            <div className="main" data-img-url="/img/hero/avatar2.jpg" />
           </div>
           <div className="details">
             <ul>

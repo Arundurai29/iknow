@@ -6,7 +6,7 @@ const Contact = () => {
       id: 1,
       icon: "letter",
       title: "Email Us",
-      value: '<a href="#">drgvimal@gmail.com</a>',
+      value: '<a href="#"> phochennai.com</a>',
     },
     {
       id: 2,

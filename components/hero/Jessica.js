@@ -26,7 +26,7 @@ const Jessica = ({
               <div className="right">
                 <div className="image">
                   <img src="/img/thumbs/47-60.jpg" alt="img" />
-                  <div className="main" data-img-url="/img/hero/avatar.png" />
+                  <div className="main" data-img-url="/img/hero/avatar.jpg" />
                 </div>
               </div>
             </div>

@@ -129,7 +129,7 @@ const state = (props) => {
       { id: 1, href: "about", title: "About Me", icon: "archive" },
       { id: 2, href: "resume", title: "Qualifications", icon: "contacs" },
       { id: 3, href: "affiliations", title: "Affiliations", icon: "affiliate" }, 
-      { id: 4, href: "portfolio", title: "Appointment", icon: "briefcase" },
+      { id: 4, href: "portfolio", title: "Expertise", icon: "briefcase" },
       { id: 5, href: "service", title: "Awards", icon: "awards" },
       { id: 6, href: "testimonials", title: "Presentations", icon: "presentation" },
       { id: 7, href: "news", title: "Publications", icon: "writing" },
@@ -161,7 +161,7 @@ const state = (props) => {
     ],
     aboutData: {
       name: "Dr Vimal Kumar G",
-      img: "/img/hero/avatar.png",
+      img: "/img/hero/avatar.jpg",
       birthday: "May 24, 1983",
       nationality: "Senior Consultant",
       email: "drgvimal@gmail.com",

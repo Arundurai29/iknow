@@ -28,7 +28,7 @@ MGM Cancer Institute and MGM Healthcare, Chennai
               <div className="right">
                 <div className="image">
                   <img src="/img/thumbs/47-60.jpg" alt="img" />
-                  <div className="main" data-img-url="/img/hero/avatar1.png" />
+                  <div className="main" data-img-url="/img/hero/avatar1.jpg" />
                 </div>
               </div>
             </div>
