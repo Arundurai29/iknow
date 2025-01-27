@@ -21,11 +21,12 @@ const Footer = ({ topbarIcon = true, darkLogo = true }) => {
           <div className="footer-column">
             <h3>Doctors</h3>
             <ul>
-              <li>
-                <Link href="/vimal">Dr Vimal Kumar G</Link>
-              </li>
+              
               <li>
                 <Link href="/deena">Dr. M. Deenadayalan</Link>
+              </li>
+              <li>
+                <Link href="/vimal">Dr Vimal Kumar G</Link>
               </li>
               <li>
                 <Link href="/rishab">Dr. Rishab Bharadwaj</Link>
@@ -83,7 +84,7 @@ const Footer = ({ topbarIcon = true, darkLogo = true }) => {
             <h3>Contact</h3>
             <ul>
               <li>
-                <a href="mailto: phochennai.com"> phochennai.com</a>
+                <a href="mailto: phochennai@gmail.com"> phochennai@gmail.com</a>
               </li>
               <li>
                 MGM Cancer Institute, Nelson Manickam Road, Rajeswari St,

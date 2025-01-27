@@ -5,10 +5,11 @@
     gap: 40px;
 }
 .post_banner{
-    background: url(../img/about/img7.jpg) no-repeat center center;
+    background: url(../img/about/img6.jpg) no-repeat center center;
     background-size: cover;
     padding: 200px 0 150px;
     position: relative;
+    background-position-y: -115px;
 }
 .treatment_banner{
     background: url(../img/artical/childhood-cancer.jpg) no-repeat center center;
@@ -29,7 +30,7 @@
 }
 .post_banner h2{
     font-size: 46px;
-    color: #fff;
+    color: #040404;
 }
 .featured_img{
     border-radius: 8px 8px 0 0;
@@ -335,6 +336,7 @@ text-decoration: none;
     }
     .post_banner {
         padding: 150px 0 100px;
+        background-position-y: 64px;
     }
     .post_card {
         padding: 20px;

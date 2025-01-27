@@ -1163,6 +1163,8 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
   background: url(/img/about/img6.jpg)  no-repeat;
   background-size: cover;
   padding: 200px 0 150px;
+  background-position: center;
+  background-position-y: -107px;
   position: relative;
 }
 .gallery_banner{
@@ -1174,12 +1176,15 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
 .home_banner::before{
     position: absolute;
     content: '';
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     inset: 0;
 }
 .Home_banner_left>*{
     padding: 0;
     margin: 0;
+}
+.cta_area h2{
+  color: #fff;
 }
 .Home_banner_left{
     display: grid;
@@ -1497,7 +1502,7 @@ inset: 0;
     }
     .home_banner {
         padding: 150px 0 100px;
-        background-position-x: -480px;
+        background-position: center;
     }
     .about {
         display: grid;
@@ -1682,7 +1687,7 @@ inset: 0;
   }
   
   .footer-column a:hover {
-    color: #fff;
+    color: #000;
   }
   
   /* Mobile styles */
@@ -1875,12 +1880,15 @@ gap: 0.5rem;
   transform: translateY(-10px);
 }
 
-.image {
+.test_image {
   width: 50px;
   height: 50px;
   object-fit: contain;
   border-radius: 50%;
   margin-bottom: 15px;
+}
+.about-padding{
+  padding: 80px 0 !important;
 }
 .swiper{
   margin-top: 60px !important;

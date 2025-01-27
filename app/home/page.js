@@ -78,7 +78,7 @@ const Home = () => {
 
       {/* about start */}
 
-      <div className="defalut_section">
+      <div className="defalut_section about-padding" >
         <div className="container">
           <div className="about">
             <div className="about_left">
@@ -428,7 +428,7 @@ const Home = () => {
       <div className="container">
       <div className="title_section">
             <span>Testimonials</span>
-            <h2>What Our Customers Say</h2>
+            <h2>What Our Patients Say</h2>
             <img src="/img/about/title-line.png" />
           </div>
 
@@ -455,7 +455,7 @@ const Home = () => {
               <img
                 src={testimonial.image}
                 alt={`${testimonial.name}'s photo`}
-                className='image'
+                className='test_image'
               />
               <p className='text'>{testimonial.text}</p>
               <h3 className='name'>{testimonial.name}</h3>

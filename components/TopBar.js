@@ -70,18 +70,19 @@ const TopBar = ({ topbarIcon = true, darkLogo = true }) => {
                     </button>
                     {openDoctorsMenu && (
                       <div className="dropdown-menu">
+                           <Link
+                          href="/deena"
+                          className={`dropdown-item ${isActiveLink("/deena") ? "active" : ""}`}
+                        >
+                          Dr. M. Deenadayalan
+                        </Link>
                         <Link
                           href="/vimal"
                           className={`dropdown-item ${isActiveLink("/vimal") ? "active" : ""}`}
                         >
                           Dr Vimal Kumar G
                         </Link>
-                        <Link
-                          href="/deena"
-                          className={`dropdown-item ${isActiveLink("/deena") ? "active" : ""}`}
-                        >
-                          Dr. M. Deenadayalan
-                        </Link>
+                     
                         <Link
                           href="/rishab"
                           className={`dropdown-item ${isActiveLink("/rishab") ? "active" : ""}`}

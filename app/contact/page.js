@@ -12,7 +12,7 @@ export default async function Contact({ searchParams }) {
       id: 1,
       icon: "letter",
       title: "Email Us",
-      value: '<a href="#"> phochennai.com</a>',
+      value: '<a href="#"> phochennai@gmail.com</a>',
     },
     {
       id: 2,
