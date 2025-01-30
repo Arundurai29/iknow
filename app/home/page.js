@@ -153,12 +153,7 @@ const Home = () => {
             >
               Bone Marrow (Stem Cell) Transplantation
             </div>
-            <div
-              className={`navtab ${activeTab === "page5" ? "active" : ""}`}
-              onClick={() => handleTabClick("page5")}
-            >
-           No of publications
-            </div>
+           
             <div className="underline"></div>
           </div>
 

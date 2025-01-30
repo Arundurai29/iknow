@@ -7,7 +7,7 @@
   position: relative;
 }
 .gallery_banner{
-  background: url(../img/about/img4.jpg) no-repeat center center;
+  background: url(../img/banner/galbanner.jpg) no-repeat center center;
   background-size: cover;
   padding: 200px 0 150px;
   position: relative;
@@ -226,7 +226,7 @@ position: relative;
 .cta_area::before{
 position: absolute;
 content: "";
-background: #726f6c56;
+background: #000000a8;
 inset: 0;
 }
 .scrolled {

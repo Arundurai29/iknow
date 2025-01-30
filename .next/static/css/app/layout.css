@@ -1168,7 +1168,7 @@ body.dark .iknow_tm_sidebar_3 .menu ul li:after{background-color: rgba(255,255,2
   position: relative;
 }
 .gallery_banner{
-  background: url(/_next/static/media/img4.dbd4c0a6.jpg) no-repeat center center;
+  background: url(/_next/static/media/galbanner.761d4df5.jpg) no-repeat center center;
   background-size: cover;
   padding: 200px 0 150px;
   position: relative;
@@ -1397,7 +1397,7 @@ position: relative;
 .cta_area::before{
 position: absolute;
 content: "";
-background: #726f6c56;
+background: #000000a8;
 inset: 0;
 }
 .scrolled {

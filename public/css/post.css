@@ -5,11 +5,25 @@
     gap: 40px;
 }
 .post_banner{
-    background: url(../img/about/img6.jpg) no-repeat center center;
+    background: url(../img/banner/actbanner.jpg) no-repeat center center;
     background-size: cover;
     padding: 200px 0 150px;
     position: relative;
-    background-position-y: -115px;
+   
+}
+.gallery_banner{
+    background: url(../img/banner/galbanner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0 150px;
+    position: relative;
+   
+}
+.con_banner{
+    background: url(../img/banner/conbanner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0 150px;
+    position: relative;
+   
 }
 .treatment_banner{
     background: url(../img/artical/childhood-cancer.jpg) no-repeat center center;
@@ -30,7 +44,7 @@
 }
 .post_banner h2{
     font-size: 46px;
-    color: #040404;
+    color: #fff;
 }
 .featured_img{
     border-radius: 8px 8px 0 0;
@@ -335,6 +349,14 @@ text-decoration: none;
         padding: 40px 0;
     }
     .post_banner {
+        padding: 150px 0 100px;
+        background-position-y: 64px;
+    }
+    .gallery_banner {
+        padding: 150px 0 100px;
+        background-position-y: 64px;
+    }
+    .con_banner {
         padding: 150px 0 100px;
         background-position-y: 64px;
     }

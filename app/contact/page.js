@@ -80,7 +80,7 @@ export default async function Contact({ searchParams }) {
   return (
     <>
       <TopBar />
-      <div className="post_banner">
+      <div className="con_banner">
         <div className="container">
           <h2>Contact Us</h2>
         </div>
